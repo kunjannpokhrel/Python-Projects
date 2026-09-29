@@ -1,25 +1,19 @@
 <a id="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 <div align="center">
-  <h3 align="center">Mini Python Projects</h3>
+  <h3 align="center">Python Projects</h3>
   <p align="center">
-    A collection of small Python projects built while learning and strengthening Python programming fundamentals.
+    Small python projects which i built while i was learning python and trying to get better at problem solving.
     <br /><br />
-    <a href="https://github.com/kunjannpokhrel/Mini-Python-Projects"><strong>Explore the project »</strong></a>
+    <a href="https://github.com/kunjannpokhrel/Python-Projects"><strong>Explore the project »</strong></a>
     <br /><br />
-    <a href="https://github.com/kunjannpokhrel/Mini-Python-Projects/issues">Report Bug</a>
+    <a href="https://github.com/kunjannpokhrel/Python-Projects/issues">Report Bug</a>
     &middot;
-    <a href="https://github.com/kunjannpokhrel/Mini-Python-Projects/issues">Request Feature</a>
+    <a href="https://github.com/kunjannpokhrel/Python-Projects/issues">Request Feature</a>
   </p>
 </div>
-
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -45,26 +39,24 @@
 </details>
 
 ## About The Project
-
-Mini Python Projects is a collection of small Python programs built while learning and strengthening Python programming fundamentals.
-The goal of this repository is to practice programming concepts by building projects from scratch, improving problem-solving skills, and applying Python concepts to practical programs.
+Python Projects is a collection of small programs that is built using the Python programming language.
+I am building these projects to help me in my journey of learning Python by doing small exercises. These may not be big topics, but they are the building blocks that will help me make bigger projects.
+The main idea is to learn something, build something, and keep adding more projects while I learn.
 
 ## Projects
-
 | Project                  | Description                                                                                                                         |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **Alarm**                | A simple alarm program that checks the current time and plays an alert when the set time is reached.                                |
-| **Calculator**           | A command-line calculator supporting arithmetic, powers, logarithms, square roots, natural logarithms, and trigonometric functions. |
+| **Alarm**                | A simple alarm that takes the current time and plays a sound when the set time is reached.                                          |
+| **Calculator**           | A command-line calculator with basic arithmetic, powers, logarithms, square roots, natural logarithms, and trigonometric functions. |
 | **Currency Converter**   | Converts currencies using live exchange-rate data from the Frankfurter API.                                                         |
-| **Emoji Text Converter** | Converts emojis to their descriptions and searches for emojis using text.                                                           |
-| **Math Quiz**            | A timed math quiz with difficulty levels, randomly generated questions, scoring, and input validation.                              |
-| **Number Guessing Game** | A number guessing game with multiple difficulty levels, hints, guess tracking, and input validation.                                |
-| **Password Generator**   | Generates random passwords using lowercase letters, uppercase letters, numbers, and special characters.                             |
+| **Emoji Text Converter** | Converts emojis to their descriptions and lets you search for emojis using text.                                                    |
+| **Math Quiz**            | A timed math quiz with different difficulty levels, random questions, scoring, and input validation.                                |
+| **Number Guessing Game** | A guessing game with different difficulty levels, hints, guess tracking, and input validation.                                      |
+| **Password Generator**   | Generates random passwords using letters, numbers, and special characters.                                                          |
 | **Rock Paper Scissors**  | A Rock Paper Scissors game with a configurable winning score, score tracking, random computer moves, and input validation.          |
-| **Timer**                | A command-line countdown timer with minute/second handling and sound effects.                                                       |
+| **Timer**                | A command-line countdown timer with minute and second handling and sound effects.                                                   |
 
 ## Built With
-
 <p align="left">
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -84,15 +76,12 @@ The goal of this repository is to practice programming concepts by building proj
 </p>
 
 ### External Tools & Libraries
-
-* **Requests** — for making HTTP requests.
-* **Frankfurter API** — for currency exchange-rate data.
-* **Demoji** — for finding and identifying emojis.
+* **`requests`** — used for making http requests, mainly for the currency converter.
+* **Frankfurter API** — provides the exchange-rate data used by the currency converter.
+* **`demoji`** — used for finding and identifying emojis.
 
 ### Built-in Python Modules
-
-The following modules are included with Python and do not require separate installation:
-
+These modules already come with Python, so they do not need to be installed separately.
 | Module     | Used In                                                                                                    |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | `datetime` | Alarm                                                                                                      |
@@ -101,74 +90,70 @@ The following modules are included with Python and do not require separate insta
 | `math`     | Calculator                                                                                                 |
 | `random`   | Math Quiz, Number Guessing Game, Password Generator, Rock Paper Scissors                                   |
 | `string`   | Password Generator                                                                                         |
-
-> **Note:** `winsound` is available on Windows.
+> **Note:** `winsound` is a Windows-only module.
 
 ## Getting Started
-
-To get a local copy up and running, follow these simple steps.
+There isn't much to set up. You just need Python and, for a few projects, the external packages they use.
 
 ### Prerequisites
-
-Make sure Python is installed on your computer.
-You can check your Python installation with:
-
+Make sure Python is installed.
+You can check it with:
 ```sh
 python --version
 ```
 
 ### Installation
-
 1. Clone the repository:
    ```sh
-   git clone https://github.com/kunjannpokhrel/Mini-Python-Projects.git
+   git clone https://github.com/kunjannpokhrel/Python-Projects.git
    ```
-
 2. Enter the project directory:
    ```sh
-   cd Mini-Python-Projects
+   cd Python-Projects
    ```
-
 3. Install the external packages:
    ```sh
    pip install requests demoji
    ```
-
-The installed packages are only required for the projects that use them.
+The packages are only needed for the projects that actually use them. The rest use Python's built-in modules.
 
 ## Repository Status
+**In Development**<br>
+This repo is still being worked on.
+I'll keep adding projects as I learn more Python and keep working on bigger ideas. The projects will also get more complicated as I learn more.
+Top contributors:
 
-**In Development**
-This repository will continue to grow as I learn new Python concepts and build more projects.
+<a href="https://github.com/kunjannpokhrel/Python-Projects/graphs/contributors"> <img src="https://contrib.rocks/image?repo=kunjannpokhrel/Python-Projects" alt="top contributors" /> </a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Contributing
-Contributions are what make the open source community an amazing place to learn, inspire, and create.
-If you have a suggestion that would improve this repository, feel free to fork the repo and create a pull request. You can also open an issue with the `enhancement` label.
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+This is mainly a learning repository, but suggestions and improvements are welcome.
+If you find something that could be improved, you can fork the repository, make your changes, and open a pull request. You can also open an issue if you have an idea for another project or improvement.
+1. fork the project
+2. create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. push to the branch (`git push origin feature/AmazingFeature`)
+5. open a pull request
 
 ## License
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**.<br>
 Copyright (c) 2026 Kunjan Pokhrel
 
-
 ## Contact
-
 **Kunjan Pokhrel**<br><br>
-📧 Email: [kunjannpokhrel@gmail.com](mailto:kunjannpokhrel@gmail.com)<br>
-🔗 LinkedIn: [www.linkedin.com/in/kunjanpokhrel](https://www.linkedin.com/in/kunjanpokhrel)<br>
-💻 GitHub: [@kunjannpokhrel](https://github.com/kunjannpokhrel)
+📧 email: [kunjannpokhrel@gmail.com](mailto:kunjannpokhrel@gmail.com)<br>
+🔗 linkedin: [www.linkedin.com/in/kunjanpokhrel](https://www.linkedin.com/in/kunjanpokhrel)<br>
+💻 github: [@kunjannpokhrel](https://github.com/kunjannpokhrel)
 
-[contributors-shield]: https://img.shields.io/github/contributors/kunjannpokhrel/Mini-Python-Projects.svg?style=for-the-badge
-[contributors-url]: https://github.com/kunjannpokhrel/Mini-Python-Projects/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kunjannpokhrel/Mini-Python-Projects.svg?style=for-the-badge
-[forks-url]: https://github.com/kunjannpokhrel/Mini-Python-Projects/network/members
-[stars-shield]: https://img.shields.io/github/stars/kunjannpokhrel/Mini-Python-Projects.svg?style=for-the-badge
-[stars-url]: https://github.com/kunjannpokhrel/Mini-Python-Projects/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kunjannpokhrel/Mini-Python-Projects.svg?style=for-the-badge
-[issues-url]: https://github.com/kunjannpokhrel/Mini-Python-Projects/issues
+[contributors-shield]: https://img.shields.io/github/contributors/kunjannpokhrel/Python-Projects.svg?style=for-the-badge
+[contributors-url]: https://github.com/kunjannpokhrel/Python-Projects/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kunjannpokhrel/Python-Projects.svg?style=for-the-badge
+[forks-url]: https://github.com/kunjannpokhrel/Python-Projects/network/members
+[stars-shield]: https://img.shields.io/github/stars/kunjannpokhrel/Python-Projects.svg?style=for-the-badge
+[stars-url]: https://github.com/kunjannpokhrel/Python-Projects/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kunjannpokhrel/Python-Projects.svg?style=for-the-badge
+[issues-url]: https://github.com/kunjannpokhrel/Python-Projects/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kunjanpokhrel
